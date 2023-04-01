@@ -7,6 +7,7 @@
 
 git submodule update --init \
   boards/default/linux \
+  boards/neomem/linux \
   boards/default/firmware/opensbi \
   wlutil/busybox \
   boards/default/distros/br/buildroot \
