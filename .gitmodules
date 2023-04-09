@@ -4,6 +4,7 @@
 [submodule "neomem-linux"]
 	path = boards/neomem/linux
 	url = git@github.com:PKUZHOU/linux.git
+	branch = neomem
 [submodule "opensbi"]
 	path = boards/default/firmware/opensbi
 	url = https://github.com/riscv/opensbi.git
