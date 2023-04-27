@@ -9,7 +9,11 @@
   "overlay" : "overlay",
   "linux" : {
       "source" : "../../../neomem/linux",
-      "config" : "linux-config"
+      "config" : "linux-config",
+      "modules" : {
+        "icenet" : "../../drivers/icenet-driver",
+        "iceblk" : "../../drivers/iceblk-driver"
+      }
   },
   "firmware" : {
       "opensbi-src" : "../../firmware/opensbi"
