@@ -1,0 +1,20 @@
+{
+  "name" : "fedora-neomem",
+  "guest-init": "initRepos.sh",
+  "distro" : {
+      "name" : "fedora",
+      "opts" : {}
+  },
+  "overlay" : "overlay",
+  "linux" : {
+      "source" : "../../../neomem/linux",
+      "config" : "linux-config",
+      "modules" : {
+          "icenet" : "../../drivers/icenet-driver",
+          "iceblk" : "../../drivers/iceblk-driver"
+      }
+  },
+  "firmware" : {
+      "opensbi-src" : "../../firmware/opensbi"
+  }
+}
